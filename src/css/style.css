@@ -32,7 +32,7 @@ nav {
 
 .main {
     width: 100%;
-    height: calc(100%-60px);
+    height: calc(100% - 60px);
     background: url(../img/girl.png) 90% 100%/auto 90% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
 }
 
@@ -65,25 +65,37 @@ nav {
     padding: 0px 16px 0px 16px;
     margin: 25px 14px 14px;
 }
-
 .about_me {
-    width: 100%;
-    height: ;
+    width: 100%;;
     background: #fff;
     text-align: center;
 }
 
 .about_me h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
     color: #263244;
-    margin-top: 20px;
-    
+    margin-top: 80px;
+}
+
+.about_me .line {
+    border-bottom: 5px #d17700 solid;
+    margin: auto;
+    width: 60px;
+    padding: 15px;
+}
+
+.about_me img {
+    margin: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    background-color: gainsboro;
 }
 
 .about_me p {
-    margin-top: 40px;
+    margin-top: 15px;
+    font-size: 16px
 }
 
 .about_me input {
@@ -98,6 +110,357 @@ nav {
     margin: 25px 14px 14px;
 }
 
+.my_skills {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/bg2.jpg) center/cover no-repeat;
+    text-align: center;
+}
+
+.my_skills h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #263244;
+    padding-top: 80px;
+}
+    
+.my_skills .line {
+    border-bottom: 5px #d17700 solid;
+    margin: auto;
+    width: 60px;
+    padding: 15px;
+}
+
+.my_skills .description {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 100px;
+}
+
+.my_skills h4 {
+    font-size: 16px;
+    color: #d17700;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.my_skills p {
+    font-size: 14px;
+    color: #616976;
+    margin-top: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.cases {
+    width: 100%;
+    height: calc (100% - 60px);
+    background-color: #fff;
+    text-align: center;
+}
+
+.cases h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #263244;
+    padding-top: 80px;
+}
+
+.cases .line {
+    border-bottom: 5px #d17700 solid;
+    margin: auto;
+    width: 60px;
+    padding: 15px;
+}
+
+.cases .gallery p {
+    font-size: 14px;
+    color: #616976;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cases .project {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.cases h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #263244;
+}
+
+.cost {
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: #fff;
+    text-align: center;
+}
+
+.cost h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #263244;
+    padding-top: 80px;
+}
+
+.cost .line {
+    border-bottom: 5px #d17700 solid;
+    margin: auto;
+    width: 60px;
+    padding: 15px;
+}
+
+.cost form {
+    width: 800px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px #5b5b5b;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.cost form h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.cost form select {
+    width: 740px;
+    height: 40px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    font-size: 13px;
+    text-indent: 12px;
+    color: #5b5b5b;  
+}
+
+.cost form .calculation {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #eee;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.time {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sum {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.znachenie {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.kolichestvo {
+    text-align: end;
+    font-weight: 700;
+    font-size: 20px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+
+.stat {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/bg3.png) center/cover no-repeat;
+    text-align: center;
+}
+
+.stat h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #263244;
+    padding-top: 80px;
+}
+
+.stat .line {
+    border-bottom: 5px #d17700 solid;
+    margin: auto;
+    width: 60px;
+    padding: 15px;
+}
+
+.stat .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.stat .list .number {
+    font-size: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #323e4f;
+}
+
+.stat .list p {
+    font-size: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #323e4f;
+}
+    
+.feedback {
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: #fff;
+    text-align: center;
+}
+
+.feedback h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #263244;
+    padding-top: 80px;
+}
+
+.feedback .line {
+    border-bottom: 5px #d17700 solid;
+    margin: auto;
+    width: 60px;
+    padding: 15px;
+}
+
+.feedback .ava {
+    margin: auto;
+}
+
+.feedback .comment {
+    font-size: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: #263244;
+}
+
+.feedback .author {
+    font-size: 15px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 40px;
+    color: #263244;
+}
+
+.feedback .dotes {
+    margin-top: 100px;
+    grid: 1fr 1fr 1fr;
+    grid-template-areas: 30px
+}
+
+.dotes img {
+    padding: 5px;
+}
+
+.contacts {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/bg4.png) center/cover no-repeat;;
+    text-align: center;
+}
+
+.contacts h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 80px;
+}
+
+.contacts .line {
+    border-bottom: 5px #d17700 solid;
+    margin: auto;
+    width: 60px;
+    padding: 15px;
+}
+
+.contacts p {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.contacts .connection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
+    margin:auto;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 15px;
+}
+
+.contacts h3 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.contacts form {
+    margin-top: 35px; 
+}
+
+.contacts form input{
+    width: 330px;
+    height: 30px;
+    border: 1px solid #d2d6dc;
+    background-color: #d2d6dc;
+    font-size: 13px;
+    text-indent: 12px;
+    color: #5b5b5b;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contacts form .message {
+    width: 685px;
+    height: 80px;
+    resize: none; 
+    margin: 15px 0;
+    padding: 5px 3px 3px 4px;
+    background-color: #d2d6dc
+}
+
+.contacts form .send {
+    width: 120px;
+    height: 40px;
+    border: 3px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 6px 10px;
+    margin-top: 5px;
+}
+
 footer {
     width: 100%;
     height: 60px;
@@ -105,8 +468,8 @@ footer {
 }
 
 footer p {
-    font-size: 18px;
+    color: #fff;
+    font-size: 15px;
     line-height: 60px;
     text-align: center;
-    color: #fff;
 }
